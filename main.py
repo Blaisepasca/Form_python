@@ -8,8 +8,12 @@ name = Label(root, text="Name")
 phone = Label(root, text="phone")
 gender = Label(root, text="gender")
 emergency = Label(root, text="emergency")
-payementmood = Label(root, text="payementmood")
+payementmood = Label(root, text="payement mood")
 
-
+name.grid(row=1, column=2)
+phone.grid(row=2, column=2)
+gender.grid(row=3, column=2)
+emergency.grid(row=4, column=2)
+payementmood.grid(row=5, column=2)
 
 root.mainloop()
